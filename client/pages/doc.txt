@@ -1,0 +1,57 @@
+ <div>
+      <Navbar color="light" light expand="md">
+        {/* <NavLink className="font-weight-bold">
+          <Link href="/">{APP_NAME}</Link>
+        </NavLink> */}
+        BLOGGER
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="ml-auto" navbar>
+            {/* {!isAuth() && (
+              <React.Fragment>
+                <NavItem>
+                  <NavLink>
+                    <Link href="/signin">Signin</Link>
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink>
+                    <Link href="/signup">Signup</Link>
+                  </NavLink>
+                </NavItem>
+              </React.Fragment>
+            )}
+            {isAuth() && (
+              <React.Fragment>
+                <NavItem>
+                  <NavLink onClick={() => router.replace("/user")}>
+                    {`${isAuth().name}'s Dashboard`}
+                  </NavLink>
+                </NavItem>
+              </React.Fragment>
+            )}
+            {isAuth() && isAuth().role === 0 && (
+              <React.Fragment>
+                <NavItem>
+                  <NavLink onClick={() => router.replace("/admin")}>
+                    {`${isAuth().name}'s Dashboard Admin`}
+                  </NavLink>
+                </NavItem>
+              </React.Fragment>
+            )}
+
+            {isAuth() && (
+              <React.Fragment>
+                <NavItem>
+                  <NavLink
+                    onClick={() => signout(() => router.replace("/signin"))}
+                  >
+                    signout
+                  </NavLink>
+                </NavItem>
+              </React.Fragment>
+            )} */}
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </div>

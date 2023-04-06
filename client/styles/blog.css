@@ -1,0 +1,19 @@
+section div{
+  /* width: 80%; */
+  /* margin: 0 auto; */
+}
+pre{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border-radius: 15px;
+  }
+
+  h3{
+    font-size: 1.3rem;
+  }
+  img{
+    width: 400px;
+    height: 300px;
+    float: center;
+  }
